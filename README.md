@@ -23,3 +23,7 @@ Site must be responsive
 Create a repo on github :octocat: for your work with following naming construct: [initials]-comp-challenge-[challenge number] (i.e. “bt-comp-challenge-1”)
 Include a README with the repo that provides a brief overview of the project, and images of both the original comp and your version.
 Push your final work to github pages
+
+<img width="1438" alt="screen shot 2018-05-21 at 1 40 12 pm" src="https://user-images.githubusercontent.com/38475249/40326519-bee8ba14-5cfc-11e8-9601-71f4006d8dd3.png">
+
+<img width="1105" alt="screen shot 2018-05-21 at 1 39 49 pm" src="https://user-images.githubusercontent.com/38475249/40326528-c6e447b0-5cfc-11e8-8ba3-a7e2da27561b.png">
