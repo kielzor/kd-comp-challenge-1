@@ -131,12 +131,14 @@ body {
     justify-content: center;
     align-items: center;
     flex: 2;
+    max-width: 40vw;
+    overflow: hidden;
 }
 
 .image {
     z-index: 0;
     height: 100vh;
-    width: 100%;
+    width: auto;
 }
 
 .page-marker {
@@ -230,7 +232,7 @@ body {
     .container {
         height: 100vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-evenly;
     }
 
@@ -242,12 +244,17 @@ body {
         width: 100%;
     }
 
+    .right-side {
+        z-index: -1;
+        align-items: none;
+    }
+
     .image {
-        position: fixed;
+        position: absolute;
+        left: 0;
         width: 100vw;
-        height: 41vh;
-        float: top;
-        z-index: 10000;
+        height: auto;
+    
     }
 
     .button-box { 
@@ -261,4 +268,9 @@ body {
     .markers {
         opacity: 0;
     }
+
+    .carousel {
+        display: none;
+    }
 }
+
